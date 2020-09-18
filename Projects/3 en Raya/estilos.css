@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to top, #00AAFF, #00FF6C);
+}
+
+.titulo{
+    align-content: center;
+    width:"300";
+    text-align:"center";
+    border:none;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tabla1{
+    border:none;
+    align-content: center;
+}
+.tabla2{
+    border: 4px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+
+}
+.tabla2td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+.jugadores{
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+.titulo_jug{
+    width:"300";
+    text-align:"center";
+    border:none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#turno{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Green */
+}
+button:hover{
+    background-color: #f44336;
+    color: white;
+}
+button:active {
+    background-color: #f44336;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

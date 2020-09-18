@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <table id='tabla'style="width:100%">
+        <tr>
+          <th>Horas</th>
+          <th>LUNES</th>
+          <th>MARTES</th>
+          <th>MIERCOLES</th>
+          <th>JUEVES</th>
+          <th>VIERNES</th>
+          <th>SABADO</th>
+          <th>DOMINGO</th>
+        </tr>
+        <tr>
+          <td class='Horas'>09:00 - 10:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+          <td class='Horas'>10:00 - 11:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+          <td class='Horas'>11:00 - 12:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+          <td class='Horas'>16:00 - 17:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+          <td class='Horas'>17:00 - 18:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+          <td class='Horas'>18:00 - 19:00</td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+          <td ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+      </table><br>
+      <div class="Botones"> 
+        <button id="drag1" type="submit" class="mat" draggable="true" ondragstart="drag(event)">Matematicas</button>
+        <button id="drag2" type="submit" class="leng" draggable="true" ondragstart="drag(event)">Lengua</button>
+        <button id="drag3" type="submit" class="hist" draggable="true" ondragstart="drag(event)">Historia</button>
+        <button id="drag4" type="submit" class="ing" draggable="true" ondragstart="drag(event)">Ingles</button>
+        <button id="drag5" type="submit" class="mus" draggable="true" ondragstart="drag(event)">Musica</button>
+        <button id="drag6" type="submit" class="fq" draggable="true" ondragstart="drag(event)">Fisica y Quimica</button>
+        <button name="Guardar" type="submit" class="Save">GUARDAR</button>
+    </div>
+     
+    
+    <script src="app.js"></script>
+</body>
+</html>
