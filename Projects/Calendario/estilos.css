@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to bottom, #00AAFF, #00FF6C);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+td{
+    cursor: pointer;
+}
+th{
+    background-color: coral;
+}
+.Horas{
+      text-align: center;
+      font-weight: bold;
+      cursor: initial;
+}
+button{
+    border-radius: 12px;
+    border-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+button:active {
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(4px);
+  }
+
+.mat{
+    background-color: dodgerblue;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.leng{
+    background-color:red;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.hist{
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.ing{
+    background-color: green;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.mus{
+    background-color: orange;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.fq{
+    background-color: brown;
+    font-weight: bold;
+    margin-left: 3%;
+    padding: 1%;
+}
+.Save{
+    margin-left: 20%;
+    font-weight: bold;
+    background-color: white;
+    font-weight: bold;
+    padding: 1%;
+}

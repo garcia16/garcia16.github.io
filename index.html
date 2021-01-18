@@ -1,140 +1,407 @@
-<!DOCTYPE html>
-<html>
-<title>Portfolio Jose Luis Garcia</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-b">
+<html lang="es"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Jose Luis Garcia">
+  <meta name="description" content="Jose Luis Garcia Portfolio">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <link rel="stylesheet" href="Estilos/CSS/index.css">
+  <title>Jose Luis Garcia</title>
+</head>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+<body>
+  <!--*** NAVIGATION ***-->
+  <nav>
+    <div class="logo">
+      <h4><a href="#">Jose Luis Garcia</a></h4>
+    </div>
+    <ul class="menues">
+      <li><a href="#">Home</a></li>
+      <li><a href="#myWork">My Projects</a></li>
+      <li><a href="#aboutMe">About</a></li>
+      <li><a href="mailto:joseluisgarciasp17@gmail.com">Contact</a></li>
+      <li><a href="Terceros/Imagenes/CV_JoseLuisGarcia.pdf" target="_blank">CV</a></li>
+    </ul>
+    <div class="menu2">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!--*** portada ***-->
   
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="images/traje.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 style="color: white;">Jose Luis Garcia</h2>
-          </div>
+  <section id="portada" >
+  
+    <div class="frontal" id="particles-js"  >
+      <header id="entrada">
+        <h1 id="title">Jose Luis Garcia</h1>
+        <p id="trabajo">Cross-platform Developer</p>
+        <div class="botones1">
+          <a href="#myWork" class="botones animated slideInLeft" id="proyectob">
+            View Projects
+          </a>
+          <a href="Terceros/Imagenes/CV_JoseLuisGarcia.pdf" target="_blank" class="botones " id="cvb">
+            View CV
+          </a>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Madrid, Spain</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>joseluisgarciasp17@gmail.com</p>
-          <hr>
+        <ul class="iconos">
+          <li>
+            <a class="ico" href="https://twitter.com/jl_developer" target="_blank" >
+              <img src="Terceros/Imagenes/twitter.png" style="width:45px;">
+            </a>
+          </li>
+          <li>
+            <a class="ico" href="https://www.linkedin.com/in/jose-luis-garcia-sp/" target="_blank" >
+                <img src="Terceros/Imagenes/icons8-linkedin-48.png">
+             
+            </a>
+          </li>
+          
+          <li>
+            <a class="ico"  href="https://github.com/garcia16" target="_blank" >
+              <img src="Terceros/Imagenes/github.png"style="width:49px;">
+              
+            </a>
+          </li>
+        </ul>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>JAVA</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Android</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
+        <span class="email">
+          Email: <a href="mailto:joseluisgarciasp17@gmail.com" class="emailLink">joseluisgarciasp17@gmail.com</a>
+        </span><br>
+
+      </header>
+    </div>
+  
+  </section>
+  
+  <!--*** MY WORK ***-->
+  <div id="contenedor">
+    <section id="myWork">
+      <h1 class="caja1">Projects</h1>
+      <div id="caja2">
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/java.jpg" alt="Weight Tracker project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Agenda Contactos</p>
+              <div class="botoncaja"> 
+                <a href="https://github.com/garcia16/Agenda" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <p class="description">One of my first projects in which I learned OOP and the use of files</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVA</li>
+                  <li class="skill">POO</li>
+                  <li class="skill">FILES</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <p>React - Redux </p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+        </div>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/python2.jpeg" alt="Weight Tracker project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Agenda Contactos / Python</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Agenda_Python" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <p class="description">My first project in Python</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">PYTHON</li>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p>JavaScript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+        </div>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/android.png" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">UtilityPlus</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/UtilityPlus" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <p class="description">One of my first projects in Android</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVA</li>
+                  <li class="skill">SQ Lite</li>
+                  <br>
+                  <br>
+                  <br>
+                </ul>
+              </div>
+            </div>
           </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+        </div>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/ic_launcher-playstore.png" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">TIBOO</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Prototipo_TiBoo" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <p class="description">
+                Tiboo is an application to meet people and do activities together</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVA</li>
+                  <li class="skill">SQL</li>
+                  <li class="skill">FIREBASE</li>
+                  <li class="skill">GOOGLE MAPS API</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+        </div>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/horario.jpg" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Timetable</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Horario" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <div class="botoncaja">
+                <a href="Projects/Calendario/Index.html" target="_blank" rel="noopener" class="botones">
+                  Test application
+                </a>
+              </div>
+              <p class="description">
+                A simple Timetable with JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVASCRIPT</li>
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <br>
         </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    	<!-- Work Experience -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Solutions Assistant / Everis</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Currently I'm working in the part of "Solutions Assistant" in Everis. Working with .NET technology for service stations.</p>
-          <hr>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/calc.jpg" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Calculator</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Calculadora" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <div class="botoncaja">
+                <a href="Projects/Calculadora/index.html" target="_blank" rel="noopener" class="botones">
+                  Test application
+                </a>
+              </div>
+              <p class="description">
+                A simple calculator with JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVASCRIPT</li>
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-	<!-- Education -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>React-Redux & ES6</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
-          <p>Udemy Course</p>
-          <hr>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/tareas.jpg" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Tareas JavaScript</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Tareas" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <div class="botoncaja">
+                <a href="Projects/Tareas/Index.html" target="_blank" rel="noopener" class="botones">
+                  Test application
+                </a>
+              </div>
+              <p class="description">
+                A simple Notepad with JavaScript and Bootstrap</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVASCRIPT</li>
+                  <li class="skill">HTML</li>
+                  <li class="skill">BOOTSTRAP</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Flutter</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
-          <p>Udemy Course</p>
-          <hr>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/3enraya.jpg" alt="Site Saver project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">3 en Raya con JavaScript</p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/3-en-Raya/tree/master/3%20en%20Raya" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <div class="botoncaja">
+                <a href="Projects/3 en Raya/Index.html" target="_blank" rel="noopener" class="botones">
+                  Test application
+                </a>
+              </div>
+              <p class="description">
+                A simple game with JavaScript</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVASCRIPT</li>
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Senior Technician of Multiplatform Applications Development</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2020</h6>
-          <p>Academic Degree</p><br>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/mongodb.png" alt="Movie Search project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">MongoDB manager </p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/accesoDatos-master/tree/master/src/main/java/mongodb" target="_blank" rel="noopener" class="botones">
+                  View on github
+                </a>
+              </div>
+              <p class="description">MongoDB manager with Java</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">MongoDB</li>
+                  <li class="skill">JAVA</li>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-	  </div>
-	  <!-- Projects -->
-	  <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-archive fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>TiBoo</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
-          <p>Android</p>
-          <hr>
+        <div class="caja3">
+          <div class="caja4">
+            <div class="imagenescajas">
+              <img class="imagencaja" src="Terceros/Imagenes/socket.png" alt="Weight Tracker project imagencaja">
+            </div>
+            <div class="cuerpocaja">
+              <p class="titulocaja">Chat With Sockets (Server/Client) </p>
+              <div class="botoncaja">
+                <a href="https://github.com/garcia16/Chat_PSP" target="_blank" rel="noopener" class="botones">
+                  View on Github
+                </a>
+              </div>
+              <p class="description">This is a project where I used multithreaded programming</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">JAVA</li>
+                  <br>
+                  <br>
+                  <br>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Utility Plus</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019</h6>
-          <p>Android</p>
-          <hr>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
+          <div class="caja3">
+            <div class="caja4">
+              <div class="imagenescajas">
+                <img class="imagencaja" src="Terceros/Imagenes/jose.jpg" alt="Weight Tracker project imagencaja">
+              </div>
+              <div class="cuerpocaja">
+                <p class="titulocaja">My Portfolio </p>
+                <div class="botoncaja">
+                  <a href="https://github.com/JoseLuisGarcia/JoseLuisGarcia.github.io" target="_blank" rel="noopener" class="botones">
+                    View on Github
+                  </a>
+                </div>
+                <p class="description">My portfolio where I show what I have done</p>
+                <div class="projectSkills">
+                  <p>Skills Used:</p>
+                  <ul class="skillsList">
+                    <li class="skill">Html5</li>
+                    <li class="skill">Css3</li>
+                    <li class="skill">JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+           
+        
+    </section>
     
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
+    <!--*** ABOUT ME ***-->
+    <section id="aboutMe">
+      <h1 class="caja1">About Me</h1>
+      <p class="sectionInfo">
+       
+        I’m Jose and I’m a 21-year old programmer. 
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <a href="https://github.com/garcia16" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-  <a href="https://twitter.com/jl_developer" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-  <a href="https://www.linkedin.com/in/jose-luis-garcia-sp/" target="_blank" ><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  <p>Jose Luis Garcia San Pedro</p>
-</footer>
+        I am currently studying a Higher Degree on Multiplatform Applications Development. Taking this course has enhaced my passsion towards programming. I also enjoy team-working, creating and participating in projects, as well as helping out other people. 
+        
+        I consider myself a very happy, motivating person with leadership skills.
+      </p>
+    </section>
 
-</body>
-</html>
+<script src="Estilos/JS/particles.js"></script>
+<script src="Estilos/JS/app.js"></script>
+
+</body></html>
